@@ -1,0 +1,82 @@
+[
+    {
+        "name": "会议详情",
+        "exchange": "nms.collector.ex",
+        "routing_key": "collector.nms.k:992ce364-62ad-11ea-8dad-a4bf01519af2",
+        "msg": {
+            "devid": "5a354575-7666-45bc-b2a2-ea6f4af53326",
+            "conf_info": {
+                "doubleflow": 0,
+                "conf_e164": "1110071",
+                "mute": 0,
+                "privideo_recv": [
+                    {
+                        "res": 21,
+                        "format": 4,
+                        "video_pkts_lose": 20,
+                        "framerate": 24,
+                        "video_pkts_loserate": 20,
+                        "id": 0,
+                        "video_down_bitrate": 892
+                    }
+                ],
+                "privideo_send": [
+                    {
+                        "res": 21,
+                        "format": 4,
+                        "video_resource_exist": 10,
+                        "video_up_bitrate": 12,
+                        "framerate": 18,
+                        "id": 0
+                    }
+                ],
+                "bitrate": 2048,
+                "audio_recv": [
+                    {
+                        "audio_pkts_loserate": 0,
+                        "id": 0,
+                        "format": 12,
+                        "audio_down_bitrate": 29,
+                        "audio_pkts_lose": 0
+                    }
+                ],
+                "mt_e164": "0512000000006",
+                "audio_send": [
+                    {
+                        "audio_up_bitrate": 23,
+                        "format": 12,
+                        "id": 0
+                    }
+                ],
+                "double_flow_info": {
+                    "res": 0,
+                    "framerate": 0
+                },
+                "dumbness": 0,
+                "encryption": 1
+            },
+            "devtype": "SKY for Windows",
+            "rpttimestamp": 1589177687517,
+            "rpttime": "2020/5/11:14:14:47",
+            "msgsrc": "mt",
+            "mt_state": 1,
+            "eventid": "EV_CONF_INFO",
+            "collectorid": "a4bf01519af2"
+        }
+    },
+    {
+        "name": "卡顿",
+        "exchange": "nms.collector.ex",
+        "routing_key": "collector.nms.k:992ce364-62ad-11ea-8dad-a4bf01519af2",
+        "msg": {
+            "eventid": "EV_BLUNT_INFO",
+            "msgsrc": "mt",
+            "devid": "5a354575-7666-45bc-b2a2-ea6f4af53326",
+            "devtype": "TrueLink",
+            "rpttime": "2020/05/11:14:57:50",
+            "blunt_info": {
+                "count": 15
+            }
+        }
+    }
+]
